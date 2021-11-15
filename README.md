@@ -16,6 +16,16 @@ The numbers in **a ratio** may be quantities of any kind, such as counts of peop
 
 Consequently, **a ratio** may be considered as an ordered pair of numbers, a fraction with **the first number** in the _numerator_ and **the second** in the _denominator_, or as the value denoted by this fraction. **Ratios of counts**, given by (non-zero) natural numbers, are rational numbers, and may sometimes be natural numbers. When two quantities are measured with the same unit, as is often the case, **their ratio** is _a dimensionless number_. A quotient of two quantities that are measured with different units is called a rate.
 
+We use **the ratio formula** while comparing the relationship between two numbers or quantities. **The ratio** is defined as the relation between the quantities of two or more objects and it indicates the amount of one object contained in the other. The general form of representing **a ratio** of two quantities say _a_ and _b_ is
+
+>a : b
+
+where,
+
+_a_ = **Antecedent**
+
+_b_ = **Consequent**
+
 ## Technologies
 
 * HTML5
@@ -24,7 +34,7 @@ Consequently, **a ratio** may be considered as an ordered pair of numbers, a fra
 
 ## Demo
 
-- WIP
+- [see here](https://mikulew.github.io/js-aspect-ratio-calculator/)
 
 ## Resources
 - [CanIUse: aspect-ratio](https://caniuse.com/?search=aspect-ratio)
@@ -35,3 +45,4 @@ Consequently, **a ratio** may be considered as an ordered pair of numbers, a fra
 - [Don't Memorise: What is a Ratio? | Proportion and Ratios](https://www.youtube.com/watch?v=B4_T6-rc35Y)
 - [Khan Academy: Introduction to ratios | Ratios, proportions, units, and rates](https://www.youtube.com/watch?v=HpdMJaKaXXc)
 - [Math is Fun](https://www.mathsisfun.com/numbers/ratio.html)
+- [Ratio Formula](https://www.cuemath.com/ratio-formula/)

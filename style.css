@@ -1,0 +1,89 @@
+:root {
+  --yangColor: #d8c21e;
+  --yinColor: #111111;
+  --borderRadius: 10px;
+  --animation: .3s ease;
+}
+
+html {
+  font-size: 2vmin;
+  font-family: 'Gemunu Libre', sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+*, *::before, *::after {
+  font-size: inherit;
+  font-family: inherit;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.canvas {
+  position: relative;
+  height: 100vh;
+  background: var(--yangColor);
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  border: 3px solid var(--yangColor);
+  border-radius: var(--borderRadius);
+  width: 50vw;
+  min-height: 80vmin;
+  padding: 20px;
+  background-color: var(--yinColor);
+  box-shadow: 10px -5px 30px var(--yangColor);
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+  color: var(--yangColor);
+}
+
+.ratio-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  margin: 50px 0 70px 0;
+  gap: 10px;
+}
+
+.dimension-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.input {
+  color: var(--yangColor);
+  padding: 15px 10px;
+  border: 1px solid var(--yangColor);
+  border-radius: var(--borderRadius);
+  background-color: transparent;
+  width: 100px;
+}
+
+.ratio-input {
+  width: 100px;
+}
+
+.dimension-input {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.dimension-label {
+  font-size: 3rem;
+  color: var(--yangColor);
+}
